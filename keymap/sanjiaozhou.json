@@ -1,0 +1,94 @@
+{
+  "switchKey": "Key_QuoteLeft",
+  "switchKeyPos": { "x": 0.5, "y": 0.526 },
+  "mouseMoveMap": {
+    "startPos": { "x": 0.575, "y": 0.565 },
+    "speedRatioX": 0.25,
+    "speedRatioY": 0.25,
+    "timedResetView": true,
+    "smallEyes": {
+      "type": "KMT_CLICK",
+      "key": "Key_R",
+      "pos": { "x": 0.766, "y": 0.931 },
+      "switchMap": false
+    }
+  },
+  "keyMapNodes": [
+    {
+      "type": "KMT_STEER_WHEEL",
+      "centerPos": { "x": 0.171, "y": 0.764 },
+      "upKey": "Key_W",
+      "downKey": "Key_S",
+      "leftKey": "Key_A",
+      "rightKey": "Key_D",
+      "upOffset": 0.17,
+      "downOffset": 0.172,
+      "leftOffset": 0.082,
+      "rightOffset": 0.081
+    },
+
+    { "type": "KMT_CLICK", "key": "Key_Space", "pos": { "x": 0.949, "y": 0.679 } },
+    { "type": "KMT_CLICK", "key": "Key_Tab", "pos": { "x": 0.036, "y": 0.935 }, "switchMap": true },
+    { "type": "KMT_CLICK", "key": "Key_V", "pos": { "x": 0.336, "y": 0.211 } },
+    { "type": "KMT_CLICK", "key": "Key_Z", "pos": { "x": 0.964, "y": 0.934 } },
+    { "type": "KMT_CLICK", "key": "Key_Control", "pos": { "x": 0.884, "y": 0.95 } },
+    { "type": "KMT_CLICK", "key": "Key_F", "pos": { "x": 0.658, "y": 0.372 } },
+    { "type": "KMT_CLICK", "key": "Key_Y", "pos": { "x": 0.793, "y": 0.386 } },
+    { "type": "KMT_CLICK", "key": "Key_H", "pos": { "x": 0.58, "y": 0.486 } },
+    { "type": "KMT_CLICK", "key": "Key_1", "pos": { "x": 0.444, "y": 0.909 } },
+    { "type": "KMT_CLICK", "key": "Key_2", "pos": { "x": 0.527, "y": 0.938 } },
+    { "type": "KMT_CLICK", "key": "Key_3", "pos": { "x": 0.687, "y": 0.937 } },
+    { "type": "KMT_CLICK", "key": "Key_Right", "pos": { "x": 0.938, "y": 0.452 } },
+    { "type": "KMT_CLICK", "key": "Key_X", "pos": { "x": 0.933, "y": 0.39 } },
+    { "type": "KMT_CLICK", "key": "LeftButton", "pos": { "x": 0.972, "y": 0.785 } },
+    { "type": "KMT_CLICK", "key": "RightButton", "pos": { "x": 0.97, "y": 0.55 } },
+    { "type": "KMT_CLICK", "key": "Key_Q", "pos": { "x": 0.105, "y": 0.373 } },
+    { "type": "KMT_CLICK", "key": "Key_E", "pos": { "x": 0.235, "y": 0.378 } },
+    { "type": "KMT_CLICK", "key": "Key_F2", "pos": { "x": 0.325, "y": 0.675 } },
+    { "type": "KMT_CLICK", "key": "Key_F3", "pos": { "x": 0.68, "y": 0.672 } },
+    { "type": "KMT_CLICK", "key": "Key_F4", "pos": { "x": 0.75, "y": 0.605 } },
+    { "type": "KMT_CLICK", "key": "Key_Escape", "pos": { "x": 0.606, "y": 0.849 } },
+    { "type": "KMT_CLICK", "key": "Key_C", "pos": { "x": 0.695, "y": 0.267 } },
+    { "type": "KMT_CLICK", "key": "Key_Up", "pos": { "x": 0.964, "y": 0.675 } },
+    { "type": "KMT_CLICK", "key": "Key_Down", "pos": { "x": 0.94, "y": 0.845 } },
+
+    {
+      "type": "KMT_CLICK_MULTI",
+      "key": "Key_N",
+      "clickNodes": [
+        { "delay": 0, "pos": { "x": 0.324, "y": 0.662 } }
+      ]
+    },
+    { "type": "KMT_CLICK", "key": "Key_Alt", "pos": { "x": 0.97, "y": 0.28 } },
+    { "type": "KMT_CLICK", "key": "Key_J", "pos": { "x": 0.32, "y": 0.52 } },
+    { "type": "KMT_CLICK", "key": "Key_5", "pos": { "x": 0.62, "y": 0.949 } },
+    { "type": "KMT_CLICK", "key": "Key_M", "pos": { "x": 0.15, "y": 0.169 } },
+
+    {
+      "type": "KMT_CLICK_MULTI",
+      "key": "Key_G",
+      "clickNodes": [
+        { "delay": 0, "pos": { "x": 0.325, "y": 0.661 } },
+        { "delay": 40, "pos": { "x": 0.938, "y": 0.367 } }
+      ]
+    },
+
+    { "type": "KMT_CLICK", "key": "MiddleButton", "pos": { "x": 0.721, "y": 0.436 } },
+    { "type": "KMT_CLICK", "key": "BackButton", "pos": { "x": 0.796, "y": 0.26 } },
+    { "type": "KMT_CLICK", "key": "Key_4", "pos": { "x": 0.85, "y": 0.368 } },
+
+    {
+      "type": "KMT_CLICK_MULTI",
+      "key": "Key_B",
+      "clickNodes": [
+        { "delay": 40, "pos": { "x": 0.96, "y": 0.059 } },
+        { "delay": 80, "pos": { "x": 0.914, "y": 0.161 } },
+        { "delay": 500, "pos": { "x": 0.914, "y": 0.261 } }
+      ]
+    },
+
+    { "type": "KMT_CLICK", "key": "ForwardButton", "pos": { "x": 0.853, "y": 0.183 } },
+
+    { "type": "KMT_CLICK", "key": "Key_T", "pos": { "x": 0.305, "y": 0.942 } }
+  ]
+}
