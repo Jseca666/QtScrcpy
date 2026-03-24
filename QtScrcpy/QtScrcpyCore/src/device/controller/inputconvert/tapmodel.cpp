@@ -25,7 +25,8 @@ namespace TapModel {
 QPointF offsetAt(qreal elapsedMs, const OffsetSeed &seed)
 {
     // 包络：按下时逐渐形成，抬起时逐渐减弱
-    const qreal pressure = pressureAt(elapsedMs);
+    const PressureSeed pressureSeed{};
+    const qreal pressure = pressureAt(elapsedMs, pressureSeed);
     const qreal envelope = qBound<qreal>(0.0, pressure, 1.0);
 
     // 很小的慢漂移 + 更小的微抖
